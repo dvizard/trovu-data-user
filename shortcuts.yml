@@ -1,11 +1,70 @@
-# Documentation:
-# https://trovu.net/docs/shortcuts/
-
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q=<query>
-examplekeyword 2:
-  url: http://www.example.com/?q=<query>&p=<puery>
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+ec 1:
+  url: http://www.expasy.org/enzyme/<query>
+  title: ec
+cts 1:
+  url: http://uranus.fiehnlab.ucdavis.edu:8080/cts/search/index?query=<query>&_action_textSearch=Search
+  title: cts
+cs 1:
+  url: http://www.chemspider.com/Search.aspx?q=<query>
+  title: cs
+loc 1:
+  url: http://ethz.expereact.com/quicksearch?query=<query>
+  title: loc
+sfxy 3:
+  url: http://sfx.ethz.ch/sfx_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8&ctx_id=10_1&ctx_tim=2010-02-05T11%3A28%3A5CET&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fsfxit.com%3Acitation&rft.aulast=&rft.genre=article&rft.jtitle=<journal>&rft.date=<year>&rft.spage=<page>&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Aarticle&sfx.title_search=contains&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&url_ver=Z39.88-2004
+  title: sfxy
+tel 2:
+  url: http://tel.local.ch/de/q/<ort>/<name>.html
+  title: tel
+tel 1:
+  url: http://tel.local.ch/de/q/<name>.html
+  title: tel
+ed 1:
+  url: http://www.encyclopediadramatica.com/Special:Search?go=Go&search=<name>
+  title: ed
+oc 1:
+  url: http://www.organic-chemistry.org/search/search.cgi?zoom_query=<query>&zoom_per_page=10&zoom_cat[]=3&zoom_and=1&zoom_sort=0
+  title: oc
+occ 1:
+  url: http://www.organische-chemie.ch/suche/search.cgi?zoom_query=<query>&zoom_per_page=10&zoom_cat[]=1&zoom_and=1&zoom_sort=0
+  title: occ
+sfx 3:
+  url: http://sfx.ethz.ch/sfx_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8&ctx_id=10_1&ctx_tim=2010-02-05T11%3A28%3A5CET&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fsfxit.com%3Acitation&rft.aulast=&rft.genre=article&rft.jtitle=<journal>&rft.issue=<issue>&rft.spage=<page>&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Aarticle&sfx.title_search=contains&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&url_ver=Z39.88-2004
+  title: sfx
+sfxv 3:
+  url: http://sfx.ethz.ch/sfx_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8&ctx_id=10_1&ctx_tim=2010-02-05T11%3A28%3A5CET&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fsfxit.com%3Acitation&rft.aulast=&rft.genre=article&rft.jtitle=<journal>&rft.volume=<vol>&rft.spage=<page>&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Aarticle&sfx.title_search=contains&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&url_ver=Z39.88-2004
+  title: sfxv
+sfxj 1:
+  url: http://sfx.ethz.ch/sfx_local/cgi/core/citation-linker.cgi?url_ver=Z39.88-2004&url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fsfxit.com%3Acitation&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=journal&__base_url=%2Fsfx_local&__citation_form=journal&sfx.title_search=contains&rft.jtitle=<journal>&rft.date=&__year=&__month=&__day=&rft.volume=&rft.issue=&rft.issn=&doi_id=doi&doi_value=&x=4&y=16
+  title: sfxj
+api 1:
+  url: http://api.drupal.org/api/search/6/<query>
+  title: api
+pcc 1:
+  url: http://www.ncbi.nlm.nih.gov/pccompound?term=<query>
+  title: pcc
+icb 1:
+  url: http://www.infochembio.ethz.ch/fmi/xsl/zs_result_de.xsl?-grammar=fmresultset&-db=Serials&-lay=WWW_ejournals&Serials::Reihe%20Titel.op=bw&Serials::Reihe%20Titel=<query>&Serials%20Bestand::Medium=Web-Full&-token.class=Suchresultat&-sortfield.1=Serials::Kurztitel&-sortorder.1=ascend&-max=all&-find=suchen&-lop=and
+  title: icb
+fddb 1:
+  url: http://fddb.info/db/de/suche/?udd=0&cat=site-de&search=<query>
+  title: Kalorien in der Lebensmittel-Datenbank
+leo 1:
+  url: http://dict.leo.org/ende?lp=ende&lang=de&searchLoc=0&cmpType=relaxed&sectHdr=on&spellToler=on&search=<query>&relink=on
+  title: Leo Deutsch<>English translation
+leoes 1:
+  url: http://dict.leo.org/esde?search=<palabra>
+  title: Español-Alemán (leo.org)
   tags:
-  - example
+  - language
+  - dictionary
+  examples:
+    árbol: Search for "árbol"
+ri 1:
+  url: http://www.lib4ri.ch/site/search/search.php?search=<query>&x=56&y=29&type=articles
+  title: lib4ri
+  tags:
+  - science
+wt 1:
+  url: http://wikitravel.org/wiki/en/index.php?search=<query>
+  title: Wikitravel
