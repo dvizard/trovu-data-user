@@ -1,11 +1,7 @@
-# Documentation:
-# https://trovu.net/docs/users/advanced/#custom-configuration
 namespaces:
 - o
 - en
-- .us
+- .ch
 - github: .
-  name: my
-# defaultKeyword: g 
 language: en
-country: us
+country: ch
